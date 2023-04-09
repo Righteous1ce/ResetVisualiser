@@ -13,16 +13,18 @@ function applyBrowserStyle(browser){
 }
 
 
-const chromeButton = document.getElementById('chrome-btn');
+const blinkButton = document.getElementById('blink-btn');
   chromeButton.addEventListener('click', () => applyBrowserStyle(chrome));
 
-const firefoxButton = document.getElementById('firefox-btn');
+const geckoButton = document.getElementById('gecko-btn');
   firefoxButton.addEventListener('click', () => applyBrowserStyle(firefox));
 
-const safariButton = document.getElementById('safari-btn');
+const webkitButton = document.getElementById('webkit-btn');
   safariButton.addEventListener('click', () => applyBrowserStyle(safari));
 
-const edgeButton = document.getElementById('edge-btn');
-  edgeButton.addEventListener('click', () => applyBrowserStyle(MicrosoftEdge));
+const tridentButton = document.getElementById('trident-btn');
+  safariButton.addEventListener('click', () => applyBrowserStyle(internetExplorer));
+
+
 
 
